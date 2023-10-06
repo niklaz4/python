@@ -27,7 +27,7 @@ class LinkedList:
     else:
         current = self.head
         while current.next_node:
-            current = currennt.next_node
+            current = current.next_node
         current.next_node = new_node
 
 #imprime os valores dos nós na lista encadeada
