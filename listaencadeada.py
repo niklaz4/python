@@ -30,7 +30,7 @@ class LinkedList:
             current = currennt.next_node
         current.next_node = new_node
 
-3#imprime os valores dos nós na lista encadeada
+#imprime os valores dos nós na lista encadeada
  def print_list(self):
     current = self.head
     while current:
